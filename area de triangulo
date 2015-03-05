@@ -1,0 +1,27 @@
+//autor: luis miguel copa diaz
+//fecha 05/03/2015
+
+#include "stdafx.h"
+#include "conio.h"
+#include<iostream>
+#include<cmath>
+
+using namespace std;
+
+
+int main() {
+
+	float a,b,c,p,area;
+
+	cout << "ingresar lado a: " << endl;
+	cin >> a;
+	cout << "ingresar lado b: " << endl;
+	cin >> b;
+	cout << "ingresar lado c: " << endl;
+	cin >> c;
+	p = (a+b+c)/2;
+	area = sqrtf(p*(p-a)*(p-b)*(p-c));
+	cout << "El area del triangulo es: " << area << endl;
+	getch();
+	return 0;
+}
