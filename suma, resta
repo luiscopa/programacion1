@@ -20,7 +20,7 @@ int main() {
 	e = a*b;
 	f = a/b;
 	
-	cout << "La resta es: " << c << endl;
+	cout << "La suma es: " << c << endl;
 	cout << "La resta es: " << d << endl;
 	cout << "La multiplicacion es: " << e << endl;
 	cout << "La division es: " << f << endl;
