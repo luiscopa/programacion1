@@ -1,0 +1,24 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main() {
+	float a;
+	float b;
+	float c;
+	cout << "ingrese su salario" << endl;
+	cin >> a;
+	if (a<2800) {
+		c = (a*3)/100;
+		cout << "su afp es" << endl;
+		cout << c << endl;
+	} else {
+		b = (a*12.1)/100;
+		cout << "su afp es" << endl;
+		cout << b << endl;
+	}
+	getch ();
+	return 0;
+}
