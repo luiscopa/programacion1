@@ -1,0 +1,46 @@
+#include "stdafx.h"
+#include<iostream>
+#include<cmath>
+#include "conio.h"
+
+using namespace std;
+
+
+int main() {
+	float a;
+	float b;
+	float c;
+	float d;
+	float d};
+	float raiz{;
+	float raiz{d};
+	float x;
+	float x1;
+	float x2;
+	float xr;
+	float xz;
+	cout << "introducir datos" << endl;
+	cin >> a;
+	cin >> b;
+	cin >> c;
+	d = (b*b)-(4*a*c);
+	if ((d==0)) {
+		x = -b/2*a;
+		cout << "solucion unica:" << x << endl;
+	} else {
+		if ((d>0)) {
+			x1 = (-b+sqrtf(d))/2*a;
+			x2 = (-b-sqrtf(d))/2*a;
+			cout << "soluciones son reales" << endl;
+			cout << "x1: " << x1 << endl;
+			cout << "x2: " << x2 << endl;
+		} else {
+			xr = -b/2*a;
+			xz = sqrtf(-d)/2*a;
+			cout << "soluciones imaginarias" << endl;
+			cout << "x1: " << xr << "+" << xz << "i" << endl;
+		}
+	}
+	getch();
+	return 0;
+}
