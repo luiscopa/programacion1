@@ -1,0 +1,32 @@
+// fac.cpp : Defines the entry point for the console application.
+//
+
+// funcion potencia.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int fac(int n);
+
+void main()
+{
+	int x,r;
+	cout<<"ingrese un numero: ";
+	cin>>x;
+	r=fac(x);
+	cout<<"el factorial de "<<x<<" es: "<<r;
+	getch();
+}
+
+int fac(int n)
+{
+	float a;
+	a=1;
+	for (int i=1;i<=n;i++)
+		a=a*i;
+	return a;
+}
