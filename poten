@@ -1,0 +1,35 @@
+// funcionpoten.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+//prototipos
+
+float funcionpoten(float base,int exponente);
+
+//cuerpo principal
+void main ()
+{
+	float b,pot;
+	int e;
+	cout<<"ingrese la base: ";
+	cin>>b;
+	cout<<"ingrese el exponente: ";
+	cin>>e;
+	potfuncionpoten(b,e; //llamada de la funcion que retorna
+	cout<<"la potencia de: "<<b<<"elevado a la "<<e<<"es: "<<pot;
+	getch();
+}
+//declaracion de variables
+float poten(float base,int exponente)
+{
+	float x;
+	x=1
+	for (int i=1;i<=exponente;i++)
+		x=x*base;
+	return x;
+}
