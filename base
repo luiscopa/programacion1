@@ -1,0 +1,32 @@
+// conversion.cpp : Defines the entry point for the console application.
+// convertir numeros de decimal a base r
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main()
+{
+    // declarar variables
+    int nuevo,N,r,d,c;
+
+    cout<<"Ingrese el numero decimal a convertir: ";
+    cin>>N;
+    cout<<"Ingrese la base a convertir: ";
+    cin>>r;
+    nuevo=0;
+    c=0;
+    while (N!=0)
+    {
+        d=N%r;
+        N=N/r;
+        nuevo=nuevo+d*pow(10.0,c);
+        c=c+1;  //c++
+    }
+    cout<<"El numero en base "<<r<<" es: "<<nuevo;
+    getch();
+}
