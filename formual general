@@ -1,0 +1,21 @@
+float form(float a, float b , float c )
+float discriminante (float a , float b , float c)
+float imaginario ( float x , float y)
+
+void main
+{
+	float a,b,c,x,y;
+	cout<<"ingrese a";
+	cin>>a;
+	cout<<"ingrese b";
+	cin>>b;
+	cout<<"ingrece c";
+	cin>>c;
+	float discriminante = pow(b,2)-4*(a*c);
+	if (discrimante > 0)
+	{
+		float x1,x2;
+
+
+	x1 = (-b + sqrt(b*b - 4.0*a*c))/(2.0*a)
+	x2 = (-b - sqrt(b*b - 4.0*a*c))/(2.0*a)
